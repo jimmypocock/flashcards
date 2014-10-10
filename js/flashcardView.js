@@ -1,0 +1,3 @@
+function FlashcardView(flashcardModel, $container) {
+
+}
