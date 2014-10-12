@@ -44,17 +44,12 @@ var flashcardsCtrl = {
   },
   showFlashcards: function($container) {
     $container.empty();
-    // debugger;
-      // for (var i = 0; i < this.flashcards; i++){
-        // debugger;
-        // console.log(this.flashcards[i].front);
-      // }
-      // console.log(this.flashcards);
+
     for (var i = 0; i < this.flashcards.length; i++){
-    //   console.log(this.flashcards[i]);
+
       var flashcardModel = new Flashcard(this.flashcards[i]);
       var flashcardView = new FlashcardView(flashcardModel, $container);
     }
-    // debugger;
+
   }
 };

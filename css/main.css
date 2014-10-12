@@ -172,6 +172,10 @@ a.view-all-decks {
   font-size: 20px;
   font-weight: bold;
 }
+.back p {
+  font-size: 6px;
+  line-height: 8px;
+}
 
 /**
  * SHOW DECKS
