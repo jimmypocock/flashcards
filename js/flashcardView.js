@@ -32,7 +32,7 @@ function FlashcardView(flashcardModel, $container) {
     '</div>'
   ].join(''));
 
-  var compiledHTML = myTemplate({
+  var compiledHTML = flashcardTemplate({
     front: flashcardModel.front,
     back:  flashcardModel.back
   });
