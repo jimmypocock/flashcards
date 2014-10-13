@@ -64,11 +64,13 @@ p {
   margin: 20px auto 0;
   left: 45px;
 }
-.upload-submit {
+.upload-submit,
+.view {
   border: 1px solid black;
   background-color: white;
   border-radius: 5px;
   margin: 10px auto 0 ;
+  display: block;
 }
 .upload-paragraph {
   margin: 4px 5px 8px!important;
