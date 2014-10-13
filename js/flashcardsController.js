@@ -45,11 +45,11 @@ var flashcardsCtrl = {
   showFlashcards: function($container) {
     $container.empty();
 
-    for (var i = 0; i < this.flashcards.length; i++){
+    // for (var i = 0; i < this.flashcards.length; i++){
 
-      var flashcardModel = new Flashcard(this.flashcards[i]);
+      var flashcardModel = new Flashcard(this.flashcards);
       var flashcardView = new FlashcardView(flashcardModel, $container);
-    }
+    // }
 
   }
 };

@@ -126,7 +126,7 @@ a.view-all-decks {
   transition: all 1s;
 }
 .flashcard > div {
-    background: white;
+  background: white;
   position: absolute;
   width: 100%;
   top: 0;
@@ -171,10 +171,6 @@ a.view-all-decks {
 .first .back p {
   font-size: 20px;
   font-weight: bold;
-}
-.back p {
-  font-size: 6px;
-  line-height: 8px;
 }
 
 /**
